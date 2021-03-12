@@ -1,0 +1,6 @@
+framework module Pods_MDSExample_MDSExampleUITests {
+  umbrella header "Pods-MDSExample-MDSExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

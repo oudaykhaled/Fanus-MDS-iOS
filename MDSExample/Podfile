@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+use_frameworks!
+
+workspace 'MDSExample.xcworkspace'
+
+project './MDSExample.xcodeproj'
+target 'MDSExample' do
+  project './MDSExample.xcodeproj'
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  # Pods for MDSExample
+  pod "Resolver"
+
+  target 'MDSExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MDSExampleUITests' do
+    # Pods for testing
+  end
+
+end
+
+project './../MDS/MDS.xcodeproj'
+target :'MDS' do
+  project './../MDS/MDS.xcodeproj'
+  
+  pod "Resolver"
+  
+  target :'MDSTests' do
+  end
+end
