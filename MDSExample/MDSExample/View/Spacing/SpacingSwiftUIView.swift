@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct SpacingSwiftUIView: View {
+struct SizingSwiftUIView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             addSpacing(title: "sizer2XS", subtitle: "2dp default", valuetitle: "2dp default", padding: 2)
             addSpacing(title: "spacingXSSmall", subtitle: "4dp default", valuetitle: "4dp default", padding: 4)
+            addSpacing(title: "spacingXSSmall", subtitle: "4dp default", valuetitle: "4dp default", padding: 4)
+
             Spacer()
         }.padding(.leading, 24).padding(.trailing, 24)
     }
@@ -34,6 +36,6 @@ struct SpacingSwiftUIView: View {
 
 struct SpacingSwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SpacingSwiftUIView()
+        SizingSwiftUIView()
     }
 }
