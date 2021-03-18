@@ -1,5 +1,5 @@
 //
-//  SizingSwiftUIView.swift
+//  SpacingSwiftUIView.swift
 //  MDSExample
 //
 //  Created by guest1 on 3/10/21.
@@ -7,42 +7,35 @@
 
 import SwiftUI
 
-struct SpacingSwiftUIView: View {
+struct SizingSwiftUIView: View {
     var body: some View {
-        ScrollView{
-        VStack(alignment: .center, spacing: 40) {
-            Spacer()
-            Text("Spacing is the distance between the objects,  the margin set from one object to the other.").padding(.top,40)
-            addSpacing(title: "spacing2XS", subtitle: "2dp default", spacing: 2)
-            addSpacing(title: "spacingXSmall", subtitle: "4dp default", spacing: 4)
-            addSpacing(title: "spacingSmall", subtitle: "8dp default", spacing: 8)
-            addSpacing(title: "spacingMedium", subtitle: "16dp default", spacing: 16)
-            addSpacing(title: "spacingLarge", subtitle: "24dp default", spacing: 24)
-            addSpacing(title: "spacingXLarge", subtitle: "32dp default", spacing: 32)
+        VStack(alignment: .leading, spacing: 8) {
+            addSpacing(title: "sizer2XS", subtitle: "2dp default", valuetitle: "2dp default", padding: 2)
+            addSpacing(title: "spacingXSSmall", subtitle: "4dp default", valuetitle: "4dp default", padding: 4)
+            addSpacing(title: "spacingXSSmall", subtitle: "4dp default", valuetitle: "4dp default", padding: 4)
+
             Spacer()
         }.padding(.leading, 24).padding(.trailing, 24)
-        }.background(Color("background")).ignoresSafeArea(.all)
     }
     
-    
-    func addSpacing(title: String, subtitle: String, spacing: CGFloat) -> AnyView {
-        return AnyView(HStack() {
+    func addSpacing(title: String, subtitle: String, valuetitle: String, padding: CGFloat) -> AnyView {
+        return AnyView(HStack {
             VStack {
-                Text(title).foregroundColor(.black).font(.system(size: 16, weight: .bold, design: .default))
-                Text(subtitle).foregroundColor(.black).font(.custom("default", size: 14))
+                Text(title).foregroundColor(.black)
+                Text(subtitle).foregroundColor(.black)
             }
             Spacer()
-            VStack(spacing: spacing) {
-                Rectangle().fill(Color.white).frame(width: 200, height: 25)
-                Rectangle().fill(Color.white).frame(width: 200, height: 25)
-                Rectangle().fill(Color.white).frame(width: 200, height: 25)
-            }
+            VStack {
+                VStack {
+                    Text(valuetitle).foregroundColor(.black)
+                }.frame(minWidth: 0, maxWidth: .infinity).background(Color.blue)
+            }.frame(width: 200).padding(padding).background(Color.black)
         })
     }
 }
 
 struct SpacingSwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SpacingSwiftUIView()
+        SizingSwiftUIView()
     }
 }

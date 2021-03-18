@@ -155,8 +155,8 @@
 		9A25E3AB25F93C9000041971 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A25E3AE25F93CB000041971 /* Spacing */,
-				9A25E3AD25F93CA700041971 /* Sizing */,
+				9A25E3AE25F93CB000041971 /* Sizing */,
+				9A25E3AD25F93CA700041971 /* Spacing */,
 				9A25E3AC25F93C9C00041971 /* Colors */,
 			);
 			path = View;
@@ -170,20 +170,20 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
-		9A25E3AD25F93CA700041971 /* Sizing */ = {
+		9A25E3AD25F93CA700041971 /* Spacing */ = {
 			isa = PBXGroup;
 			children = (
 				9A25E3AF25F93CD700041971 /* SpacingSwiftUIView.swift */,
 			);
-			path = Sizing;
+			path = Spacing;
 			sourceTree = "<group>";
 		};
-		9A25E3AE25F93CB000041971 /* Spacing */ = {
+		9A25E3AE25F93CB000041971 /* Sizing */ = {
 			isa = PBXGroup;
 			children = (
 				9A25E3B725F93CE400041971 /* SizingSwiftUIView.swift */,
 			);
-			path = Spacing;
+			path = Sizing;
 			sourceTree = "<group>";
 		};
 		9A43E58925F919B9005957BA = {
