@@ -13,15 +13,17 @@ struct MDSExampleApp: App {
     init() {
         let mdsSDK = MdsSDK()
         loadStyles(mdsSDK)
+
     }
     
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
     
     func loadStyles(_ mdsSDK: MdsSDK) {
-        mdsSDK.register { ColorPalette() as ColorPaletteProtocol }
+   mdsSDK.register { ColorPalette() as ColorPaletteProtocol }
     }
 }

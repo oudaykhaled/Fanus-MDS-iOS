@@ -10,4 +10,8 @@ import Foundation
 public protocol SpacerPoolProtocol {
     var spacer2XS: CGFloat { get }
     var spacerXSmall: CGFloat { get }
+    var spacerSmall: CGFloat { get }
+    var spacerMedium: CGFloat { get }
+    var spacerLarge: CGFloat { get }
+    var spacerXLarge: CGFloat { get }
 }

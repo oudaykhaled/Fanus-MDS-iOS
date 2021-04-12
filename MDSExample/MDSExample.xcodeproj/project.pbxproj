@@ -10,8 +10,8 @@
 		63382FB51B632A6C6C32CE59 /* Pods_MDSExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD363AE9B1CCBF315BC5156D /* Pods_MDSExampleTests.framework */; };
 		9A25E39625F91D1700041971 /* MDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A43E5FA25F91A76005957BA /* MDS.framework */; };
 		9A25E3A725F93B5000041971 /* ColorsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3A625F93B5000041971 /* ColorsSwiftUIView.swift */; };
-		9A25E3B025F93CD700041971 /* SizingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3AF25F93CD700041971 /* SizingSwiftUIView.swift */; };
-		9A25E3B825F93CE400041971 /* SpacingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3B725F93CE400041971 /* SpacingSwiftUIView.swift */; };
+		9A25E3B025F93CD700041971 /* SpacingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3AF25F93CD700041971 /* SpacingSwiftUIView.swift */; };
+		9A25E3B825F93CE400041971 /* SizingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3B725F93CE400041971 /* SizingSwiftUIView.swift */; };
 		9A43E59625F919B9005957BA /* MDSExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43E59525F919B9005957BA /* MDSExampleApp.swift */; };
 		9A43E59825F919B9005957BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43E59725F919B9005957BA /* ContentView.swift */; };
 		9A43E59A25F919BA005957BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A43E59925F919BA005957BA /* Assets.xcassets */; };
@@ -78,8 +78,8 @@
 		6F92F5A568EBB16642902459 /* Pods-MDSExample-MDSExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSExample-MDSExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MDSExample-MDSExampleUITests/Pods-MDSExample-MDSExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BBB2102A6ED42DA105AF7F8 /* Pods-MDSExample-MDSExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSExample-MDSExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MDSExample-MDSExampleUITests/Pods-MDSExample-MDSExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A25E3A625F93B5000041971 /* ColorsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsSwiftUIView.swift; sourceTree = "<group>"; };
-		9A25E3AF25F93CD700041971 /* SizingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizingSwiftUIView.swift; sourceTree = "<group>"; };
-		9A25E3B725F93CE400041971 /* SpacingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingSwiftUIView.swift; sourceTree = "<group>"; };
+		9A25E3AF25F93CD700041971 /* SpacingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingSwiftUIView.swift; sourceTree = "<group>"; };
+		9A25E3B725F93CE400041971 /* SizingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizingSwiftUIView.swift; sourceTree = "<group>"; };
 		9A43E59225F919B9005957BA /* MDSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A43E59525F919B9005957BA /* MDSExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSExampleApp.swift; sourceTree = "<group>"; };
 		9A43E59725F919B9005957BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,8 +155,8 @@
 		9A25E3AB25F93C9000041971 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A25E3AE25F93CB000041971 /* Spacing */,
-				9A25E3AD25F93CA700041971 /* Sizing */,
+				9A25E3AE25F93CB000041971 /* Sizing */,
+				9A25E3AD25F93CA700041971 /* Spacing */,
 				9A25E3AC25F93C9C00041971 /* Colors */,
 			);
 			path = View;
@@ -170,20 +170,20 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
-		9A25E3AD25F93CA700041971 /* Sizing */ = {
+		9A25E3AD25F93CA700041971 /* Spacing */ = {
 			isa = PBXGroup;
 			children = (
-				9A25E3AF25F93CD700041971 /* SizingSwiftUIView.swift */,
-			);
-			path = Sizing;
-			sourceTree = "<group>";
-		};
-		9A25E3AE25F93CB000041971 /* Spacing */ = {
-			isa = PBXGroup;
-			children = (
-				9A25E3B725F93CE400041971 /* SpacingSwiftUIView.swift */,
+				9A25E3AF25F93CD700041971 /* SpacingSwiftUIView.swift */,
 			);
 			path = Spacing;
+			sourceTree = "<group>";
+		};
+		9A25E3AE25F93CB000041971 /* Sizing */ = {
+			isa = PBXGroup;
+			children = (
+				9A25E3B725F93CE400041971 /* SizingSwiftUIView.swift */,
+			);
+			path = Sizing;
 			sourceTree = "<group>";
 		};
 		9A43E58925F919B9005957BA = {
@@ -649,12 +649,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A25E3B025F93CD700041971 /* SizingSwiftUIView.swift in Sources */,
+				9A25E3B025F93CD700041971 /* SpacingSwiftUIView.swift in Sources */,
 				9AA96FA325FA908C0098D742 /* ColorPalette.swift in Sources */,
 				9ABACE2B25FBE60B00C188DA /* Color.swift in Sources */,
 				9A43E59825F919B9005957BA /* ContentView.swift in Sources */,
 				9A43E59625F919B9005957BA /* MDSExampleApp.swift in Sources */,
-				9A25E3B825F93CE400041971 /* SpacingSwiftUIView.swift in Sources */,
+				9A25E3B825F93CE400041971 /* SizingSwiftUIView.swift in Sources */,
 				9A25E3A725F93B5000041971 /* ColorsSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
