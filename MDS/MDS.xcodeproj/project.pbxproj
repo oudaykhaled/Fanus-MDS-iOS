@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		020A6AFBB8F94C9E00801845 /* Pods_MDS_MDSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06B6A7790B64EA62E3CFD33 /* Pods_MDS_MDSTests.framework */; };
+		1CB622572632F78700F3757D /* RadiusPoolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB622562632F78700F3757D /* RadiusPoolProtocol.swift */; };
+		1CB6225B2632F7E100F3757D /* DefaultRadiusPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6225A2632F7E100F3757D /* DefaultRadiusPool.swift */; };
 		5C3F58C84E615163A06F0DE3 /* Pods_MDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0042575B1C800A6F3356 /* Pods_MDS.framework */; };
 		9A25E3BE25F942A500041971 /* ColorPaletteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3BD25F942A500041971 /* ColorPaletteProtocol.swift */; };
 		9A25E3C325F9437300041971 /* SpacerPoolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3C225F9437300041971 /* SpacerPoolProtocol.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CB622562632F78700F3757D /* RadiusPoolProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusPoolProtocol.swift; sourceTree = "<group>"; };
+		1CB6225A2632F7E100F3757D /* DefaultRadiusPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRadiusPool.swift; sourceTree = "<group>"; };
 		21E338257BB0BF8830639331 /* Pods-MDS-MDSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDS-MDSTests.debug.xcconfig"; path = "Target Support Files/Pods-MDS-MDSTests/Pods-MDS-MDSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		60A279D51A0CBE0E7BEA277E /* Pods-MDS-MDSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDS-MDSTests.release.xcconfig"; path = "Target Support Files/Pods-MDS-MDSTests/Pods-MDS-MDSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8B73D473E251893F447DC9DF /* Pods-MDS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDS.debug.xcconfig"; path = "Target Support Files/Pods-MDS/Pods-MDS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				9A25E3BD25F942A500041971 /* ColorPaletteProtocol.swift */,
 				9A25E3C225F9437300041971 /* SpacerPoolProtocol.swift */,
 				9A25E3C825F943C300041971 /* SizerPoolProtocol.swift */,
+				1CB622562632F78700F3757D /* RadiusPoolProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 				9A25E3D325F9442A00041971 /* DefaultColorPalette.swift */,
 				9A25E3D725F944B600041971 /* DefaultSpacerPool.swift */,
 				9A25E3DB25F944CA00041971 /* DefaultSizerPool.swift */,
+				1CB6225A2632F7E100F3757D /* DefaultRadiusPool.swift */,
 			);
 			path = DefaultImplementions;
 			sourceTree = "<group>";
@@ -386,10 +392,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABACE0925FBE13F00C188DA /* Color.swift in Sources */,
+				1CB6225B2632F7E100F3757D /* DefaultRadiusPool.swift in Sources */,
 				9A25E3BE25F942A500041971 /* ColorPaletteProtocol.swift in Sources */,
 				9A25E3C325F9437300041971 /* SpacerPoolProtocol.swift in Sources */,
 				9A25E3D825F944B600041971 /* DefaultSpacerPool.swift in Sources */,
 				9A25E3DC25F944CA00041971 /* DefaultSizerPool.swift in Sources */,
+				1CB622572632F78700F3757D /* RadiusPoolProtocol.swift in Sources */,
 				9ABACE4025FBEBF100C188DA /* MDS.swift in Sources */,
 				9A25E3C925F943C300041971 /* SizerPoolProtocol.swift in Sources */,
 				9A25E3E025F9454200041971 /* MdsSDK.swift in Sources */,

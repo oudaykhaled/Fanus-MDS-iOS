@@ -44,7 +44,7 @@ struct ContentView: View {
                         NavigationLink(destination: SizingSwiftUIView()) {
                             Text("Sizing").foregroundColor(.black)
                         }.frame(width: 190, height: 70).background(Color.white).cornerRadius(15).shadow(color: .gray, radius: 6, x: 0, y: 3)
-                        NavigationLink(destination: SizingSwiftUIView()) {
+                        NavigationLink(destination: RadiusSwiftUIView()) {
                             Text("Radius").foregroundColor(.black)
                         }.frame(width: 190, height: 70).background(Color.white).cornerRadius(15).shadow(color: .gray, radius: 6, x: 0, y: 3)
                         
@@ -127,6 +127,7 @@ struct ContentView: View {
                         }
                         HStack {
                             NavigationLink(destination: SizingSwiftUIView()) {
+                            
                                 Text("Snackbar").foregroundColor(.black)
                             }.frame(width: 190, height: 70).background(Color.white).cornerRadius(15).shadow(color: .gray, radius: 6, x: 0, y: 3)
                             
