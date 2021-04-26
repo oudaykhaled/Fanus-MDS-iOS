@@ -14,6 +14,10 @@ struct ColorPalette: ColorPaletteProtocol {
     var onPrimary: UIColor = UIColor(named: "onPrimary")!
     var secondary: UIColor = UIColor(named: "secondary")!
     var onSecondary: UIColor = UIColor(named: "onSecondary")!
+    var primaryVariant: UIColor = UIColor(named: "primaryVariant")!
+    var onPrimaryVariant: UIColor = UIColor(named: "onPrimaryVariant")!
+    var secondaryVariant: UIColor = UIColor(named: "secondaryVariant")!
+    var onSecondaryVariant: UIColor = UIColor(named: "onSecondaryVariant")!
     var accent: UIColor = UIColor(named: "accent")!
     var onAccent: UIColor = UIColor(named: "onAccent")!
     var success: UIColor = UIColor(named: "success")!
@@ -33,20 +37,5 @@ struct ColorPalette: ColorPaletteProtocol {
     var shimmer: UIColor = UIColor(named:"shimmer")!
     var selected: UIColor = UIColor(named:"selected")!
     var seperator: UIColor = UIColor(named:"seperator")!
-    var neutral_00: UIColor = UIColor(named:"neutral_00")!
-    var neutral_10: UIColor = UIColor(named:"neutral_10")!
-    var neutral_20: UIColor = UIColor(named:"neutral_20")!
-    var neutral_30: UIColor = UIColor(named:"neutral_30")!
-    var neutral_40: UIColor = UIColor(named:"neutral_40")!
-    var neutral_50: UIColor = UIColor(named:"neutral_50")!
-    var neutral_60: UIColor = UIColor(named:"neutral_60")!
-    var neutral_70: UIColor = UIColor(named:"neutral_70")!
-    var neutral_80: UIColor = UIColor(named:"neutral_80")!
-    var neutral_90: UIColor = UIColor(named:"neutral_90")!
-    var neutral_100: UIColor = UIColor(named:"neutral_100")!
-    var defaultText: UIColor = UIColor(named:"defaultText")!
-    var supportText: UIColor = UIColor(named:"supportText")!
-    var disabledText: UIColor = UIColor(named:"disabledText")!
-    var defaultTextInverse: UIColor = UIColor(named:"defaultTextInverse")!
-    var supportTextInverse: UIColor = UIColor(named:"supportTextInverse")!
+  
 }

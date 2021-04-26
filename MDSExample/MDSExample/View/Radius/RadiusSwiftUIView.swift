@@ -23,8 +23,8 @@ struct RadiusSwiftUIView: View {
             addRadius(title: "Radius Large", radius: radiusPool.radiusLarge)
             addRadius(title: "Radius Max", radius: radiusPool.radiusMax)
 
-        }.padding(.leading, 24).padding(.trailing, 24)
-        }.background(Color("background"))
+            }.padding(.leading, 24).padding(.trailing, 24).padding(.top,32)
+        }.background(Color("background")).padding(.top,88).ignoresSafeArea(.all)
     }
     
     func addRadius(title: String, radius: CGFloat) -> AnyView {
