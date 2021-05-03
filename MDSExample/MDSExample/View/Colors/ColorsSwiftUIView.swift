@@ -14,7 +14,7 @@ struct ColorsSwiftUIView: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 16){
-                Group{
+               Group{
                     Text("Semantic Colors").foregroundColor(.black).font(.custom("Arial-BoldMT", size: 20)).frame(maxWidth: .infinity, alignment: .center)
                     
                     Group  {
@@ -61,9 +61,12 @@ struct ColorsSwiftUIView: View {
                     addSurfaceColor(title: "selected", textColor: .black, backgroundColor: Color(colorPalette.selected))
                     addSurfaceColor(title: "seperator", textColor: .black, backgroundColor: Color(colorPalette.seperator))
                 }
-            }.padding(.leading, 24).padding(.trailing, 24).padding(.bottom,50).padding(.top, 32)
-        }.background(Color("background")).padding(.top,88).ignoresSafeArea(.all)
+                Spacer()
+            }.padding(.leading, 24).padding(.trailing, 24).padding(.top, 32)
+        }.background(Color("background")).edgesIgnoringSafeArea(.bottom).navigationBarTitle("", displayMode: .inline)
     }
+    
+    
     
     func addLabelColor(title: String, color: Color) -> Text {
         Text(title).foregroundColor(color).font(.system(size: 16, weight: .bold, design: .default))
@@ -75,6 +78,7 @@ struct ColorsSwiftUIView: View {
             Spacer()
         }.padding(.leading, 16).frame(height: 50).background(backgroundColor))
     }
+    
 }
 
 struct ColorsSwiftUIView_Previews: PreviewProvider {

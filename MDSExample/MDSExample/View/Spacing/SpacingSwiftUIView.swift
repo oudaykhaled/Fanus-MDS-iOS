@@ -16,17 +16,16 @@ struct SpacingSwiftUIView: View {
     var body: some View {
         ScrollView{
         VStack(alignment: .center, spacing: 40) {
-            Spacer()
-            Text("Spacing is the distance between the objects,  the margin set from one object to the other.").padding(.top,40)
-            addSpacing(title: "spacing2XS", subtitle: "2dp default", spacing: spacerPool.spacer2XS)
-            addSpacing(title: "spacingXSmall", subtitle: "4dp default", spacing: spacerPool.spacerXSmall)
-            addSpacing(title: "spacingSmall", subtitle: "8dp default", spacing: spacerPool.spacerSmall)
-            addSpacing(title: "spacingMedium", subtitle: "16dp default", spacing: spacerPool.spacerMedium)
-            addSpacing(title: "spacingLarge", subtitle: "24dp default", spacing: spacerPool.spacerLarge)
-            addSpacing(title: "spacingXLarge", subtitle: "32dp default", spacing: spacerPool.spacerXLarge)
+            Text("Spacing is the distance between the objects,  the margin set from one object to the other.").padding(.top,32)
+            addSpacing(title: "spacing2XS", subtitle: "\(spacerPool.spacer2XS.description) dp default", spacing: spacerPool.spacer2XS)
+            addSpacing(title: "spacingXSmall", subtitle: "\(spacerPool.spacerXSmall.description) dp default", spacing: spacerPool.spacer2XS)
+            addSpacing(title: "spacingSmall", subtitle: "\(spacerPool.spacerSmall.description) dp default", spacing: spacerPool.spacer2XS)
+            addSpacing(title: "spacingMedium", subtitle: "\(spacerPool.spacerMedium.description) dp default", spacing: spacerPool.spacer2XS)
+            addSpacing(title: "spacingLarge", subtitle: "\(spacerPool.spacerLarge.description) dp default", spacing: spacerPool.spacer2XS)
+            addSpacing(title: "spacingXLarge", subtitle: "\(spacerPool.spacerXLarge.description) dp default", spacing: spacerPool.spacer2XS)
             Spacer()
         }.padding(.leading, 24).padding(.trailing, 24)
-        }.background(Color("background")).ignoresSafeArea(.all)
+        }.background(Color("background")).edgesIgnoringSafeArea(.bottom).navigationBarTitle("", displayMode: .inline)
     }
     
     
