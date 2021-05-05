@@ -43,7 +43,7 @@ struct ContentView: View {
                         
                         
                         HStack(spacing : 16){
-                            NavigationLink(destination: ColorsSwiftUIView()) {
+                            NavigationLink(destination: ElevationSwiftUIView()) {
                                 Text("Elevation").foregroundColor(.black).fixedSize(horizontal: true, vertical: false).frame(maxWidth : .infinity)
                             }.frame(height : 70).background(Color.white).cornerRadius(15).shadow(color: .gray, radius: 6, x: 0, y: 3)
                             

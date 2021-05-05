@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C419C162643213E001F35F5 /* ElevationPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C419C152643213E001F35F5 /* ElevationPool.swift */; };
+		1C419C1F2643217B001F35F5 /* ElevationSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C419C1E2643217B001F35F5 /* ElevationSwiftUIView.swift */; };
 		1C5D183326409EEB0071EABD /* SpacerPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D183226409EEB0071EABD /* SpacerPool.swift */; };
 		1C5D183C26409FBA0071EABD /* SizerPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D183B26409FBA0071EABD /* SizerPool.swift */; };
 		1C5D18452640A21C0071EABD /* RadiusPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D18442640A21C0071EABD /* RadiusPool.swift */; };
@@ -76,6 +78,8 @@
 
 /* Begin PBXFileReference section */
 		0AC9F3F8FC6EB7B187C5C18D /* Pods-MDSExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSExample.release.xcconfig"; path = "Target Support Files/Pods-MDSExample/Pods-MDSExample.release.xcconfig"; sourceTree = "<group>"; };
+		1C419C152643213E001F35F5 /* ElevationPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationPool.swift; sourceTree = "<group>"; };
+		1C419C1E2643217B001F35F5 /* ElevationSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationSwiftUIView.swift; sourceTree = "<group>"; };
 		1C5D183226409EEB0071EABD /* SpacerPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPool.swift; sourceTree = "<group>"; };
 		1C5D183B26409FBA0071EABD /* SizerPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizerPool.swift; sourceTree = "<group>"; };
 		1C5D18442640A21C0071EABD /* RadiusPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusPool.swift; sourceTree = "<group>"; };
@@ -147,6 +151,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C419C102643212E001F35F5 /* ElevationPool */ = {
+			isa = PBXGroup;
+			children = (
+				1C419C152643213E001F35F5 /* ElevationPool.swift */,
+			);
+			path = ElevationPool;
+			sourceTree = "<group>";
+		};
+		1C419C1D2643216C001F35F5 /* Elevation */ = {
+			isa = PBXGroup;
+			children = (
+				1C419C1E2643217B001F35F5 /* ElevationSwiftUIView.swift */,
+			);
+			path = Elevation;
+			sourceTree = "<group>";
+		};
 		1C5D183126409EDE0071EABD /* SpacerPool */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +215,7 @@
 		9A25E3AB25F93C9000041971 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1C419C1D2643216C001F35F5 /* Elevation */,
 				1CB6225E2632F8A200F3757D /* Radius */,
 				9A25E3AE25F93CB000041971 /* Sizing */,
 				9A25E3AD25F93CA700041971 /* Spacing */,
@@ -381,6 +402,7 @@
 		9AA96FA125FA90830098D742 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				1C419C102643212E001F35F5 /* ElevationPool */,
 				1C5D18432640A20D0071EABD /* RadiusPool */,
 				1C5D183A26409FAF0071EABD /* SizerPool */,
 				1C5D183126409EDE0071EABD /* SpacerPool */,
@@ -700,10 +722,12 @@
 				9ABACE2B25FBE60B00C188DA /* Color.swift in Sources */,
 				9A43E59825F919B9005957BA /* ContentView.swift in Sources */,
 				9A43E59625F919B9005957BA /* MDSExampleApp.swift in Sources */,
+				1C419C162643213E001F35F5 /* ElevationPool.swift in Sources */,
 				1C5D18452640A21C0071EABD /* RadiusPool.swift in Sources */,
 				9A25E3B825F93CE400041971 /* SizingSwiftUIView.swift in Sources */,
 				9A25E3A725F93B5000041971 /* ColorsSwiftUIView.swift in Sources */,
 				1C5D183C26409FBA0071EABD /* SizerPool.swift in Sources */,
+				1C419C1F2643217B001F35F5 /* ElevationSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
