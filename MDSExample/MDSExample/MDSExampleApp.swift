@@ -25,5 +25,9 @@ struct MDSExampleApp: App {
     
     func loadStyles(_ mdsSDK: MdsSDK) {
    mdsSDK.register { ColorPalette() as ColorPaletteProtocol }
+        mdsSDK.register { SpacerPool() as SpacerPoolProtocol }
+        mdsSDK.register { SizerPool() as SizerPoolProtocol }
+        mdsSDK.register { RadiusPool() as RadiusPoolProtocol }
+
     }
 }
