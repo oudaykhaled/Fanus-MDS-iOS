@@ -13,8 +13,5 @@ struct RadiusPool: RadiusPoolProtocol {
     var radiusMedium: CGFloat = 15
     var radiusLarge: CGFloat = 25
     var radiusMax: CGFloat = 41
-
-    
-  
   
 }

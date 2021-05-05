@@ -28,6 +28,8 @@ struct MDSExampleApp: App {
         mdsSDK.register { SpacerPool() as SpacerPoolProtocol }
         mdsSDK.register { SizerPool() as SizerPoolProtocol }
         mdsSDK.register { RadiusPool() as RadiusPoolProtocol }
+        mdsSDK.register { ElevationPool() as ElevationPoolProtocol }
+
 
     }
 }

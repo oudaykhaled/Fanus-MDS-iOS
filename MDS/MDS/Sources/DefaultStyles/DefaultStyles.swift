@@ -12,5 +12,6 @@ func loadStyles() {
     Resolver.register { DefaultSpacerPool() as SpacerPoolProtocol }
     Resolver.register { DefaultSizerPool() as SizerPoolProtocol }
     Resolver.register { DefaultRadiusPool() as RadiusPoolProtocol }
+    Resolver.register { DefaultElevationPool() as ElevationPoolProtocol }
 
 }
