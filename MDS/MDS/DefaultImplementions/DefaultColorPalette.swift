@@ -7,10 +7,7 @@
 import UIKit
 import Foundation
 
-struct DefaultColorPalette: ColorPaletteProtocol {
-   
-    
-  
+struct DefaultColorPalette: ColorPaletteProtocol {  
     var primary: UIColor = DefaultColorPalette.getColor("primary")
     var onPrimary: UIColor = DefaultColorPalette.getColor("onPrimary")
     var secondary: UIColor = DefaultColorPalette.getColor("secondary")

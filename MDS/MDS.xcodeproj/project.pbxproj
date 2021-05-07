@@ -27,6 +27,13 @@
 		9AC0A00425F91C280072166B /* MDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC09FFA25F91C280072166B /* MDS.framework */; };
 		9AC0A00925F91C280072166B /* MDSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0A00825F91C280072166B /* MDSTests.swift */; };
 		9AC0A00B25F91C280072166B /* MDS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC09FFD25F91C280072166B /* MDS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD7B6B226440E47000A4C7D /* FontProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6B126440E47000A4C7D /* FontProviderProtocol.swift */; };
+		9AD7B6BA26440E96000A4C7D /* DefaultFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6B926440E96000A4C7D /* DefaultFontProvider.swift */; };
+		9AD7B6BF264412C7000A4C7D /* MDSLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6BE264412C7000A4C7D /* MDSLabelStyle.swift */; };
+		9AD7B6C326441303000A4C7D /* TextSizeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6C226441303000A4C7D /* TextSizeProtocol.swift */; };
+		9AD7B6C7264413CC000A4C7D /* DefaultTextSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6C6264413CC000A4C7D /* DefaultTextSize.swift */; };
+		9AD7B6D026441679000A4C7D /* MDSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6CF26441679000A4C7D /* MDSLabel.swift */; };
+		9AD7B6D4264417CD000A4C7D /* MDSLabelStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6D3264417CD000A4C7D /* MDSLabelStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +71,13 @@
 		9AC0A00325F91C280072166B /* MDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC0A00825F91C280072166B /* MDSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSTests.swift; sourceTree = "<group>"; };
 		9AC0A00A25F91C280072166B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD7B6B126440E47000A4C7D /* FontProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProviderProtocol.swift; sourceTree = "<group>"; };
+		9AD7B6B926440E96000A4C7D /* DefaultFontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFontProvider.swift; sourceTree = "<group>"; };
+		9AD7B6BE264412C7000A4C7D /* MDSLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSLabelStyle.swift; sourceTree = "<group>"; };
+		9AD7B6C226441303000A4C7D /* TextSizeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeProtocol.swift; sourceTree = "<group>"; };
+		9AD7B6C6264413CC000A4C7D /* DefaultTextSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextSize.swift; sourceTree = "<group>"; };
+		9AD7B6CF26441679000A4C7D /* MDSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSLabel.swift; sourceTree = "<group>"; };
+		9AD7B6D3264417CD000A4C7D /* MDSLabelStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSLabelStyles.swift; sourceTree = "<group>"; };
 		D06B6A7790B64EA62E3CFD33 /* Pods_MDS_MDSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDS_MDSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1B0042575B1C800A6F3356 /* Pods_MDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE9A243D6CF73B17616CFB4 /* Pods-MDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDS.release.xcconfig"; path = "Target Support Files/Pods-MDS/Pods-MDS.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +124,8 @@
 				9A25E3C825F943C300041971 /* SizerPoolProtocol.swift */,
 				1CB622562632F78700F3757D /* RadiusPoolProtocol.swift */,
 				1C419C082643204D001F35F5 /* ElevationPoolProtocol.swift */,
+				9AD7B6B126440E47000A4C7D /* FontProviderProtocol.swift */,
+				9AD7B6C226441303000A4C7D /* TextSizeProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -122,6 +138,8 @@
 				9A25E3DB25F944CA00041971 /* DefaultSizerPool.swift */,
 				1CB6225A2632F7E100F3757D /* DefaultRadiusPool.swift */,
 				1C419C0C2643205D001F35F5 /* DefaultElevationPool.swift */,
+				9AD7B6C6264413CC000A4C7D /* DefaultTextSize.swift */,
+				9AD7B6B926440E96000A4C7D /* DefaultFontProvider.swift */,
 			);
 			path = DefaultImplementions;
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 		9AC09FFC25F91C280072166B /* MDS */ = {
 			isa = PBXGroup;
 			children = (
+				9AD7B6B026440E18000A4C7D /* Components */,
 				9ABACE1225FBE46A00C188DA /* Sources */,
 				9A25E3CE25F943FC00041971 /* DefaultImplementions */,
 				9A25E3BC25F9428100041971 /* Protocols */,
@@ -209,6 +228,24 @@
 				9AC0A00A25F91C280072166B /* Info.plist */,
 			);
 			path = MDSTests;
+			sourceTree = "<group>";
+		};
+		9AD7B6B026440E18000A4C7D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9AD7B6BD264412BB000A4C7D /* MDSLabel */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9AD7B6BD264412BB000A4C7D /* MDSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9AD7B6BE264412C7000A4C7D /* MDSLabelStyle.swift */,
+				9AD7B6D3264417CD000A4C7D /* MDSLabelStyles.swift */,
+				9AD7B6CF26441679000A4C7D /* MDSLabel.swift */,
+			);
+			path = MDSLabel;
 			sourceTree = "<group>";
 		};
 		ED645852EDA8FAF2DD5D6873 /* Frameworks */ = {
@@ -398,6 +435,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABACE0925FBE13F00C188DA /* Color.swift in Sources */,
+				9AD7B6C326441303000A4C7D /* TextSizeProtocol.swift in Sources */,
+				9AD7B6B226440E47000A4C7D /* FontProviderProtocol.swift in Sources */,
+				9AD7B6C7264413CC000A4C7D /* DefaultTextSize.swift in Sources */,
 				1CB6225B2632F7E100F3757D /* DefaultRadiusPool.swift in Sources */,
 				9A25E3BE25F942A500041971 /* ColorPaletteProtocol.swift in Sources */,
 				9A25E3C325F9437300041971 /* SpacerPoolProtocol.swift in Sources */,
@@ -407,8 +447,12 @@
 				9ABACE4025FBEBF100C188DA /* MDS.swift in Sources */,
 				9A25E3C925F943C300041971 /* SizerPoolProtocol.swift in Sources */,
 				9A25E3E025F9454200041971 /* MdsSDK.swift in Sources */,
+				9AD7B6D026441679000A4C7D /* MDSLabel.swift in Sources */,
+				9AD7B6BA26440E96000A4C7D /* DefaultFontProvider.swift in Sources */,
+				9AD7B6D4264417CD000A4C7D /* MDSLabelStyles.swift in Sources */,
 				9A25E3D425F9442A00041971 /* DefaultColorPalette.swift in Sources */,
 				1C419C092643204D001F35F5 /* ElevationPoolProtocol.swift in Sources */,
+				9AD7B6BF264412C7000A4C7D /* MDSLabelStyle.swift in Sources */,
 				9AA96F7125FA896B0098D742 /* DefaultStyles.swift in Sources */,
 				1C419C0D2643205D001F35F5 /* DefaultElevationPool.swift in Sources */,
 			);
