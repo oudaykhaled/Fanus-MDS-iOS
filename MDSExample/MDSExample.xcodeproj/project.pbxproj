@@ -27,6 +27,7 @@
 		9AA96FA325FA908C0098D742 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA96FA225FA908C0098D742 /* ColorPalette.swift */; };
 		9ABACE2625FBE5E200C188DA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABACE2525FBE5E200C188DA /* Colors.xcassets */; };
 		9ABACE2B25FBE60B00C188DA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABACE2A25FBE60B00C188DA /* Color.swift */; };
+		9AD7B6F826441F56000A4C7D /* TextSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6F726441F56000A4C7D /* TextSwiftUIView.swift */; };
 		D858148BFC4603F89353B4BF /* Pods_MDSExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434C2FAD3DB8D4685876A4D8 /* Pods_MDSExample.framework */; };
 		DC19F124A2C63C4DF7C78C85 /* Pods_MDSExample_MDSExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD129E7111BEECF7F31829A /* Pods_MDSExample_MDSExampleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -117,6 +118,7 @@
 		9AA96FA225FA908C0098D742 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		9ABACE2525FBE5E200C188DA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9ABACE2A25FBE60B00C188DA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9AD7B6F726441F56000A4C7D /* TextSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSwiftUIView.swift; sourceTree = "<group>"; };
 		AF1CEFE76BF842B8C364B006 /* Pods-MDSExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MDSExampleTests/Pods-MDSExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9E0723E67E3892AA9FA0111 /* Pods-MDSExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSExampleTests.release.xcconfig"; path = "Target Support Files/Pods-MDSExampleTests/Pods-MDSExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		CD363AE9B1CCBF315BC5156D /* Pods_MDSExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDSExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +217,7 @@
 		9A25E3AB25F93C9000041971 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9AD7B6E726441EFD000A4C7D /* Text */,
 				1C419C1D2643216C001F35F5 /* Elevation */,
 				1CB6225E2632F8A200F3757D /* Radius */,
 				9A25E3AE25F93CB000041971 /* Sizing */,
@@ -434,6 +437,14 @@
 				9ABACE2525FBE5E200C188DA /* Colors.xcassets */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		9AD7B6E726441EFD000A4C7D /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				9AD7B6F726441F56000A4C7D /* TextSwiftUIView.swift */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -722,6 +733,7 @@
 				9ABACE2B25FBE60B00C188DA /* Color.swift in Sources */,
 				9A43E59825F919B9005957BA /* ContentView.swift in Sources */,
 				9A43E59625F919B9005957BA /* MDSExampleApp.swift in Sources */,
+				9AD7B6F826441F56000A4C7D /* TextSwiftUIView.swift in Sources */,
 				1C419C162643213E001F35F5 /* ElevationPool.swift in Sources */,
 				1C5D18452640A21C0071EABD /* RadiusPool.swift in Sources */,
 				9A25E3B825F93CE400041971 /* SizingSwiftUIView.swift in Sources */,

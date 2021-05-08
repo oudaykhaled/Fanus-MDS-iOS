@@ -14,5 +14,4 @@ public protocol SizerPoolProtocol {
     var sizerMedium: CGFloat { get }
     var sizerLarge: CGFloat { get }
     var sizerXLarge: CGFloat { get }
-
 }

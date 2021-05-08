@@ -13,5 +13,6 @@ func loadStyles() {
     Resolver.register { DefaultSizerPool() as SizerPoolProtocol }
     Resolver.register { DefaultRadiusPool() as RadiusPoolProtocol }
     Resolver.register { DefaultElevationPool() as ElevationPoolProtocol }
-
+    Resolver.register { DefaultFontProvider() as FontProviderProtocol }
+    Resolver.register { DefaultTextSize() as TextSizeProtocol }
 }
