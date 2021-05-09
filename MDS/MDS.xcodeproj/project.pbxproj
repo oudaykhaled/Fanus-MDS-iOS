@@ -20,6 +20,9 @@
 		9A25E3D825F944B600041971 /* DefaultSpacerPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3D725F944B600041971 /* DefaultSpacerPool.swift */; };
 		9A25E3DC25F944CA00041971 /* DefaultSizerPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3DB25F944CA00041971 /* DefaultSizerPool.swift */; };
 		9A25E3E025F9454200041971 /* MdsSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3DF25F9454200041971 /* MdsSDK.swift */; };
+		9A60AC542646C72A00B9884D /* InputPasswordTextfield.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A60AC532646C72A00B9884D /* InputPasswordTextfield.xib */; };
+		9A60AC582646C74100B9884D /* InputPasswordTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60AC572646C74100B9884D /* InputPasswordTextfield.swift */; };
+		9A60AC5F2646D08A00B9884D /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60AC5E2646D08A00B9884D /* Extension+UIImage.swift */; };
 		9AA96F7125FA896B0098D742 /* DefaultStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA96F7025FA896B0098D742 /* DefaultStyles.swift */; };
 		9ABACE0525FBE10A00C188DA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABACE0425FBE10A00C188DA /* Colors.xcassets */; };
 		9ABACE0925FBE13F00C188DA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABACE0825FBE13F00C188DA /* Color.swift */; };
@@ -34,6 +37,15 @@
 		9AD7B6C7264413CC000A4C7D /* DefaultTextSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6C6264413CC000A4C7D /* DefaultTextSize.swift */; };
 		9AD7B6D026441679000A4C7D /* MDSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6CF26441679000A4C7D /* MDSLabel.swift */; };
 		9AD7B6D4264417CD000A4C7D /* MDSLabelStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6D3264417CD000A4C7D /* MDSLabelStyles.swift */; };
+		9ADBABC52646756C00C9E1D1 /* MDSTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABC42646756C00C9E1D1 /* MDSTextFieldStyle.swift */; };
+		9ADBABCB264675EC00C9E1D1 /* MDSTextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABCA264675EC00C9E1D1 /* MDSTextFieldStyles.swift */; };
+		9ADBABD326467C3D00C9E1D1 /* MDSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABD226467C3D00C9E1D1 /* MDSTextField.swift */; };
+		9ADBABE5264687F700C9E1D1 /* InputLabelTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADBABE4264687F700C9E1D1 /* InputLabelTextField.xib */; };
+		9ADBABE9264688BE00C9E1D1 /* InputLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABE8264688BE00C9E1D1 /* InputLabelTextField.swift */; };
+		9ADBABEF2646891500C9E1D1 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABEE2646891500C9E1D1 /* Extension+UIView.swift */; };
+		9ADBABF7264689C800C9E1D1 /* InputTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABF6264689C800C9E1D1 /* InputTextFieldStyle.swift */; };
+		9ADBABFE26468AE200C9E1D1 /* InputTextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABFD26468AE200C9E1D1 /* InputTextFieldStyles.swift */; };
+		9ADBAC052646946200C9E1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADBAC042646946200C9E1D1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +73,9 @@
 		9A25E3D725F944B600041971 /* DefaultSpacerPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSpacerPool.swift; sourceTree = "<group>"; };
 		9A25E3DB25F944CA00041971 /* DefaultSizerPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSizerPool.swift; sourceTree = "<group>"; };
 		9A25E3DF25F9454200041971 /* MdsSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdsSDK.swift; sourceTree = "<group>"; };
+		9A60AC532646C72A00B9884D /* InputPasswordTextfield.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputPasswordTextfield.xib; sourceTree = "<group>"; };
+		9A60AC572646C74100B9884D /* InputPasswordTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordTextfield.swift; sourceTree = "<group>"; };
+		9A60AC5E2646D08A00B9884D /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
 		9AA96F7025FA896B0098D742 /* DefaultStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyles.swift; sourceTree = "<group>"; };
 		9ABACE0425FBE10A00C188DA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9ABACE0825FBE13F00C188DA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -78,6 +93,15 @@
 		9AD7B6C6264413CC000A4C7D /* DefaultTextSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextSize.swift; sourceTree = "<group>"; };
 		9AD7B6CF26441679000A4C7D /* MDSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSLabel.swift; sourceTree = "<group>"; };
 		9AD7B6D3264417CD000A4C7D /* MDSLabelStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSLabelStyles.swift; sourceTree = "<group>"; };
+		9ADBABC42646756C00C9E1D1 /* MDSTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSTextFieldStyle.swift; sourceTree = "<group>"; };
+		9ADBABCA264675EC00C9E1D1 /* MDSTextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSTextFieldStyles.swift; sourceTree = "<group>"; };
+		9ADBABD226467C3D00C9E1D1 /* MDSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSTextField.swift; sourceTree = "<group>"; };
+		9ADBABE4264687F700C9E1D1 /* InputLabelTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputLabelTextField.xib; sourceTree = "<group>"; };
+		9ADBABE8264688BE00C9E1D1 /* InputLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLabelTextField.swift; sourceTree = "<group>"; };
+		9ADBABEE2646891500C9E1D1 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		9ADBABF6264689C800C9E1D1 /* InputTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldStyle.swift; sourceTree = "<group>"; };
+		9ADBABFD26468AE200C9E1D1 /* InputTextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldStyles.swift; sourceTree = "<group>"; };
+		9ADBAC042646946200C9E1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06B6A7790B64EA62E3CFD33 /* Pods_MDS_MDSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDS_MDSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1B0042575B1C800A6F3356 /* Pods_MDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE9A243D6CF73B17616CFB4 /* Pods-MDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDS.release.xcconfig"; path = "Target Support Files/Pods-MDS/Pods-MDS.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,9 +168,36 @@
 			path = DefaultImplementions;
 			sourceTree = "<group>";
 		};
+		9A60AC512646C6E800B9884D /* InputLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBABE4264687F700C9E1D1 /* InputLabelTextField.xib */,
+				9ADBABE8264688BE00C9E1D1 /* InputLabelTextField.swift */,
+			);
+			path = InputLabel;
+			sourceTree = "<group>";
+		};
+		9A60AC522646C6F200B9884D /* InputPassword */ = {
+			isa = PBXGroup;
+			children = (
+				9A60AC532646C72A00B9884D /* InputPasswordTextfield.xib */,
+				9A60AC572646C74100B9884D /* InputPasswordTextfield.swift */,
+			);
+			path = InputPassword;
+			sourceTree = "<group>";
+		};
+		9A60AC5B2646CCE900B9884D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBAC042646946200C9E1D1 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		9ABACE0025FBE0E000C188DA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9A60AC5B2646CCE900B9884D /* Images */,
 				9ABACE0325FBE0F100C188DA /* Color */,
 			);
 			path = Resources;
@@ -211,6 +262,7 @@
 		9AC09FFC25F91C280072166B /* MDS */ = {
 			isa = PBXGroup;
 			children = (
+				9ADBABEC2646890800C9E1D1 /* Utility */,
 				9AD7B6B026440E18000A4C7D /* Components */,
 				9ABACE1225FBE46A00C188DA /* Sources */,
 				9A25E3CE25F943FC00041971 /* DefaultImplementions */,
@@ -233,6 +285,7 @@
 		9AD7B6B026440E18000A4C7D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				9ADBABC32646752600C9E1D1 /* MDSTextField */,
 				9AD7B6BD264412BB000A4C7D /* MDSLabel */,
 			);
 			path = Components;
@@ -246,6 +299,53 @@
 				9AD7B6CF26441679000A4C7D /* MDSLabel.swift */,
 			);
 			path = MDSLabel;
+			sourceTree = "<group>";
+		};
+		9ADBABC32646752600C9E1D1 /* MDSTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBABDB2646838000C9E1D1 /* Type */,
+				9ADBABC42646756C00C9E1D1 /* MDSTextFieldStyle.swift */,
+				9ADBABCA264675EC00C9E1D1 /* MDSTextFieldStyles.swift */,
+				9ADBABD226467C3D00C9E1D1 /* MDSTextField.swift */,
+			);
+			path = MDSTextField;
+			sourceTree = "<group>";
+		};
+		9ADBABDB2646838000C9E1D1 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBABFC26468AD300C9E1D1 /* Styles */,
+				9A60AC522646C6F200B9884D /* InputPassword */,
+				9A60AC512646C6E800B9884D /* InputLabel */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		9ADBABEC2646890800C9E1D1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBABED2646890D00C9E1D1 /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9ADBABED2646890D00C9E1D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBABEE2646891500C9E1D1 /* Extension+UIView.swift */,
+				9A60AC5E2646D08A00B9884D /* Extension+UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9ADBABFC26468AD300C9E1D1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBABF6264689C800C9E1D1 /* InputTextFieldStyle.swift */,
+				9ADBABFD26468AE200C9E1D1 /* InputTextFieldStyles.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 		ED645852EDA8FAF2DD5D6873 /* Frameworks */ = {
@@ -352,7 +452,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADBABE5264687F700C9E1D1 /* InputLabelTextField.xib in Resources */,
+				9ADBAC052646946200C9E1D1 /* Assets.xcassets in Resources */,
 				9ABACE0525FBE10A00C188DA /* Colors.xcassets in Resources */,
+				9A60AC542646C72A00B9884D /* InputPasswordTextfield.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,25 +539,34 @@
 			files = (
 				9ABACE0925FBE13F00C188DA /* Color.swift in Sources */,
 				9AD7B6C326441303000A4C7D /* TextSizeProtocol.swift in Sources */,
+				9ADBABD326467C3D00C9E1D1 /* MDSTextField.swift in Sources */,
 				9AD7B6B226440E47000A4C7D /* FontProviderProtocol.swift in Sources */,
 				9AD7B6C7264413CC000A4C7D /* DefaultTextSize.swift in Sources */,
 				1CB6225B2632F7E100F3757D /* DefaultRadiusPool.swift in Sources */,
 				9A25E3BE25F942A500041971 /* ColorPaletteProtocol.swift in Sources */,
+				9ADBABCB264675EC00C9E1D1 /* MDSTextFieldStyles.swift in Sources */,
 				9A25E3C325F9437300041971 /* SpacerPoolProtocol.swift in Sources */,
 				9A25E3D825F944B600041971 /* DefaultSpacerPool.swift in Sources */,
+				9ADBABFE26468AE200C9E1D1 /* InputTextFieldStyles.swift in Sources */,
 				9A25E3DC25F944CA00041971 /* DefaultSizerPool.swift in Sources */,
 				1CB622572632F78700F3757D /* RadiusPoolProtocol.swift in Sources */,
 				9ABACE4025FBEBF100C188DA /* MDS.swift in Sources */,
 				9A25E3C925F943C300041971 /* SizerPoolProtocol.swift in Sources */,
 				9A25E3E025F9454200041971 /* MdsSDK.swift in Sources */,
+				9ADBABE9264688BE00C9E1D1 /* InputLabelTextField.swift in Sources */,
 				9AD7B6D026441679000A4C7D /* MDSLabel.swift in Sources */,
 				9AD7B6BA26440E96000A4C7D /* DefaultFontProvider.swift in Sources */,
 				9AD7B6D4264417CD000A4C7D /* MDSLabelStyles.swift in Sources */,
 				9A25E3D425F9442A00041971 /* DefaultColorPalette.swift in Sources */,
+				9A60AC5F2646D08A00B9884D /* Extension+UIImage.swift in Sources */,
 				1C419C092643204D001F35F5 /* ElevationPoolProtocol.swift in Sources */,
 				9AD7B6BF264412C7000A4C7D /* MDSLabelStyle.swift in Sources */,
 				9AA96F7125FA896B0098D742 /* DefaultStyles.swift in Sources */,
+				9ADBABEF2646891500C9E1D1 /* Extension+UIView.swift in Sources */,
+				9ADBABC52646756C00C9E1D1 /* MDSTextFieldStyle.swift in Sources */,
+				9ADBABF7264689C800C9E1D1 /* InputTextFieldStyle.swift in Sources */,
 				1C419C0D2643205D001F35F5 /* DefaultElevationPool.swift in Sources */,
+				9A60AC582646C74100B9884D /* InputPasswordTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

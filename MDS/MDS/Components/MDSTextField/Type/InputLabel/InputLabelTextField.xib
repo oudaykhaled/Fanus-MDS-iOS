@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InputLabelTextField" customModule="MDS" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="eUk-ke-0mc" id="FJZ-o2-Dsp"/>
+                <outlet property="errorContainerView" destination="Dmj-dn-ODz" id="vNc-LD-nSa"/>
+                <outlet property="errorMessageLabel" destination="wdD-Dl-VXu" id="NYS-GA-gfV"/>
+                <outlet property="errorMessageSecondaryLabel" destination="hGG-oJ-BPa" id="0M1-xv-tTF"/>
+                <outlet property="textfield" destination="t6D-vI-BkT" id="JBN-v2-fDk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="579" height="144"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t6D-vI-BkT" customClass="MDSTextField" customModule="MDS" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="579" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="M7U-WC-yfb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUk-ke-0mc">
+                    <rect key="frame" x="541" y="16.5" width="28" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="qA8-ne-Up3"/>
+                        <constraint firstAttribute="height" constant="17" id="zox-n0-XaG"/>
+                    </constraints>
+                    <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="didPressButton:" destination="-1" eventType="touchUpInside" id="O5W-DJ-3Sd"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dmj-dn-ODz">
+                    <rect key="frame" x="20" y="58" width="559" height="86"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdD-Dl-VXu" customClass="MDSLabel" customModule="MDS" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="41.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGG-oJ-BPa" customClass="MDSLabel" customModule="MDS" customModuleProvider="target">
+                            <rect key="frame" x="497" y="0.0" width="42" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="hGG-oJ-BPa" firstAttribute="top" secondItem="Dmj-dn-ODz" secondAttribute="top" id="6FL-jh-iQf"/>
+                        <constraint firstItem="hGG-oJ-BPa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wdD-Dl-VXu" secondAttribute="trailing" constant="16" id="FrT-2c-M4m"/>
+                        <constraint firstItem="wdD-Dl-VXu" firstAttribute="leading" secondItem="Dmj-dn-ODz" secondAttribute="leading" id="cO5-ZZ-B44"/>
+                        <constraint firstAttribute="trailing" secondItem="hGG-oJ-BPa" secondAttribute="trailing" constant="20" id="e7d-MF-I7B"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hGG-oJ-BPa" secondAttribute="bottom" id="jZj-rs-NGY"/>
+                        <constraint firstItem="wdD-Dl-VXu" firstAttribute="top" secondItem="Dmj-dn-ODz" secondAttribute="top" id="jx2-AJ-RMM"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wdD-Dl-VXu" secondAttribute="bottom" id="sFr-So-2MB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Dmj-dn-ODz" secondAttribute="bottom" id="4em-Ic-Qu0"/>
+                <constraint firstAttribute="trailing" secondItem="eUk-ke-0mc" secondAttribute="trailing" constant="10" id="A3J-91-zEF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="t6D-vI-BkT" secondAttribute="trailing" id="BE2-Qy-3qM"/>
+                <constraint firstItem="eUk-ke-0mc" firstAttribute="centerY" secondItem="t6D-vI-BkT" secondAttribute="centerY" id="DAd-Iq-A2M"/>
+                <constraint firstItem="t6D-vI-BkT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FG5-dx-7BN"/>
+                <constraint firstItem="Dmj-dn-ODz" firstAttribute="top" secondItem="t6D-vI-BkT" secondAttribute="bottom" constant="8" id="kbD-Ee-Soa"/>
+                <constraint firstItem="Dmj-dn-ODz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="lZD-7D-8k5"/>
+                <constraint firstItem="t6D-vI-BkT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uTb-ss-8ZQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Dmj-dn-ODz" secondAttribute="trailing" id="w3j-x2-DKC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="257.24637681159425" y="-153.34821428571428"/>
+        </view>
+    </objects>
+</document>
