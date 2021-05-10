@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct InputTextFieldStyle: HasApply {
+public struct InputTextFieldStyle {
     public var textfieldStyle: MDSTextFieldStyle
     public var errorStyle: MDSLabelStyle
 }

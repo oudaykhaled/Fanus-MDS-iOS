@@ -16,5 +16,5 @@ public struct MDSTextFieldStyles {
     public static let inputLabelStyle = MDSTextFieldStyle(textSize: textResolver.textSizerSmall,
                                                           textColor: colorResolver.onSurface,
                                                           font: fontResolver.getRegularFont(),
-                                                          placeholderColor: colorResolver.onSurface)
+                                                          placeholderColor: colorResolver.neutral_60)
 }

@@ -37,7 +37,7 @@ public class InputPasswordTextfield: UIView {
         setStyle(InputTextFieldStyles.inputLabelStyle)
         let image = UIImage.from(local: "textfield/eye")?.withRenderingMode(.alwaysOriginal)
         button.setImage(image, for: .normal)
-        textfield.setBorderColor(colorResolver.seperator)
+        textfield.setBorderColor(colorResolver.neutral_60)
         button.alpha = 0.5
         textfield.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
         textfield.addTarget(self, action: #selector(editingDidBegin), for: .editingDidBegin)
@@ -93,23 +93,6 @@ public class InputPasswordTextfield: UIView {
     
     public func removeErrors() {
         errorContainerView.isHidden = true
-        textfield.setBorderColor(colorResolver.surfaceDisabled)
+        textfield.setBorderColor(colorResolver.neutral_60)
     }
 }
-
-
-
-
-
-
-
-protocol HasApply { }
-
-extension HasApply {
-    func apply(closure:(Self) -> ()) -> Self {
-        closure(self)
-        return self
-    }
-}
-
-extension NSObject: HasApply { }

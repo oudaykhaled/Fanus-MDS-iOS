@@ -35,7 +35,7 @@ public class InputLabelTextField: UIView {
         fromNib()
         errorContainerView.isHidden = true
         setStyle(InputTextFieldStyles.inputLabelStyle)
-        textfield.setBorderColor(colorResolver.seperator)
+        textfield.setBorderColor(colorResolver.neutral_60)
         textfield.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
         textfield.addTarget(self, action: #selector(editingDidBegin), for: .editingDidBegin)
         textfield.addTarget(self, action: #selector(editingDidEnd), for: .editingDidEnd)
@@ -62,15 +62,15 @@ public class InputLabelTextField: UIView {
     
     @objc private func editingDidEnd() {
         guard isValidTextfield else { return }
-        textfield.setBorderColor(colorResolver.seperator)
+        textfield.setBorderColor(colorResolver.neutral_60)
     }
     
     private func setStyle(_ style: InputTextFieldStyle) {
         textfield.style = style.textfieldStyle
         errorMessageLabel.style = style.errorStyle
         errorMessageSecondaryLabel.style = style.errorStyle
-//        errorMessageLabel.textColor = colorResolver.danger
-//        errorMessageSecondaryLabel.textColor = colorResolver.danger
+        errorMessageLabel.textColor = colorResolver.danger
+        errorMessageSecondaryLabel.textColor = colorResolver.danger
     }
     
     @IBAction func didPressButton(_ sender: UIButton) {
