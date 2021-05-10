@@ -140,7 +140,7 @@ struct ContentView: View {
                                 Text("Loaders").foregroundColor(.black).fixedSize(horizontal: true, vertical: false).frame(maxWidth : .infinity)
                             }.frame(height : 70).background(Color.white).cornerRadius(15).shadow(color: .gray, radius: 6, x: 0, y: 3)
                             
-                            NavigationLink(destination: RadiusSwiftUIView()) {
+                            NavigationLink(destination: InputSwiftUIView()) {
                                 Text("Input").foregroundColor(.black).fixedSize(horizontal: true, vertical: false).frame(maxWidth : .infinity)
                             }.frame(height : 70).background(Color.white).cornerRadius(15).shadow(color: .gray, radius: 6, x: 0, y: 3)
                         }.frame(

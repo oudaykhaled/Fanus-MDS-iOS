@@ -52,7 +52,7 @@ public class InputPasswordTextfield: UIView {
     
     private func secureChanged() {
         textfield.isSecureTextEntry = isSecureTextEntry
-        let image = UIImage.from(local: isSecureTextEntry ? "textfield/eye" : "textfield/invisible")?.withRenderingMode(.alwaysOriginal)
+        let image = UIImage.from(local: isSecureTextEntry ? "textfield/visible" : "textfield/invisible")?.withRenderingMode(.alwaysOriginal)
         button.setImage(image, for: .normal)
     }
     
