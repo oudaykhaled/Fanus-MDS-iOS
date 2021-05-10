@@ -5,11 +5,9 @@
 //  Created by guest1 on 5/6/21.
 //
 import MDS
-import Resolver
 import SwiftUI
 
 struct TextSwiftUIView: View {
-    var spacerPool = Resolver.resolve() as SpacerPoolProtocol
     
     var body: some View {
         ScrollView{

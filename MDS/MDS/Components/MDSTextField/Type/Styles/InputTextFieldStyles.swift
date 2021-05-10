@@ -9,7 +9,5 @@ import UIKit
 
 public struct InputTextFieldStyles {
     public static var inputLabelStyle = InputTextFieldStyle(textfieldStyle: MDSTextFieldStyles.inputLabelStyle,
-                                                            errorStyle: MDSLabelStyles.textAppearanceCaption).apply { (style) in
-                                                                print(style.errorStyle)
-                                                            }
+                                                            errorStyle: MDSLabelStyles.textAppearanceCaption)
 }

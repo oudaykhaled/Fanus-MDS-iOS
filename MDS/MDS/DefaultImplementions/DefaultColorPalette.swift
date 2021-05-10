@@ -51,5 +51,3 @@ struct DefaultColorPalette: ColorPaletteProtocol {
         UIColor(named: named, in: MDS.bundle, compatibleWith: nil)!
     }
 }
-
-
