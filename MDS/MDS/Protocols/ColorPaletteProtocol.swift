@@ -35,5 +35,16 @@ public protocol ColorPaletteProtocol {
     var surfaceDisabled: UIColor { get }
     var shimmer: UIColor { get }
     var selected: UIColor { get }
-    var seperator: UIColor { get }    
+    var seperator: UIColor { get }
+    var neutral_00: UIColor { get }
+    var neutral_10: UIColor { get }
+    var neutral_20: UIColor { get }
+    var neutral_30: UIColor { get }
+    var neutral_40: UIColor { get }
+    var neutral_50: UIColor { get }
+    var neutral_60: UIColor { get }
+    var neutral_70: UIColor { get }
+    var neutral_80: UIColor { get }
+    var neutral_90: UIColor { get }
+    var neutral_100: UIColor { get }
 }
