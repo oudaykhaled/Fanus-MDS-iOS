@@ -9,7 +9,6 @@ import MDS
 import UIKit
 
 struct ColorPalette: ColorPaletteProtocol {
-
     var primary: UIColor = UIColor(named: "primary")!
     var onPrimary: UIColor = UIColor(named: "onPrimary")!
     var secondary: UIColor = UIColor(named: "secondary")!
@@ -37,5 +36,15 @@ struct ColorPalette: ColorPaletteProtocol {
     var shimmer: UIColor = UIColor(named:"shimmer")!
     var selected: UIColor = UIColor(named:"selected")!
     var seperator: UIColor = UIColor(named:"seperator")!
-  
+    var neutral_00: UIColor = UIColor(named: "neutral_00")!
+    var neutral_10: UIColor = UIColor(named: "neutral_10")!
+    var neutral_20: UIColor = UIColor(named: "neutral_20")!
+    var neutral_30: UIColor = UIColor(named: "neutral_30")!
+    var neutral_40: UIColor = UIColor(named: "neutral_40")!
+    var neutral_50: UIColor = UIColor(named: "neutral_50")!
+    var neutral_60: UIColor = UIColor(named: "neutral_60")!
+    var neutral_70: UIColor = UIColor(named: "neutral_70")!
+    var neutral_80: UIColor = UIColor(named: "neutral_80")!
+    var neutral_90: UIColor = UIColor(named: "neutral_90")!
+    var neutral_100: UIColor = UIColor(named: "neutral_100")!
 }

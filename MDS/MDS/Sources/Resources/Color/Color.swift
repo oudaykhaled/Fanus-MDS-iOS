@@ -35,5 +35,15 @@ enum SolidColor: String {
     case shimmer = "shimmer"
     case selected = "selected"
     case seperator = "seperator"
-    
+    case neutral_00 = "neutral_00"
+    case neutral_10 = "neutral_10"
+    case neutral_20 = "neutral_20"
+    case neutral_30 = "neutral_30"
+    case neutral_40 = "neutral_40"
+    case neutral_50 = "neutral_50"
+    case neutral_60 = "neutral_60"
+    case neutral_70 = "neutral_70"
+    case neutral_80 = "neutral_80"
+    case neutral_90 = "neutral_90"
+    case neutral_100 = "neutral_100"
 }
