@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		020A6AFBB8F94C9E00801845 /* Pods_MDS_MDSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06B6A7790B64EA62E3CFD33 /* Pods_MDS_MDSTests.framework */; };
 		1C419C092643204D001F35F5 /* ElevationPoolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C419C082643204D001F35F5 /* ElevationPoolProtocol.swift */; };
 		1C419C0D2643205D001F35F5 /* DefaultElevationPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C419C0C2643205D001F35F5 /* DefaultElevationPool.swift */; };
 		1CB622572632F78700F3757D /* RadiusPoolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB622562632F78700F3757D /* RadiusPoolProtocol.swift */; };
@@ -27,7 +26,6 @@
 		9ABACE0525FBE10A00C188DA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABACE0425FBE10A00C188DA /* Colors.xcassets */; };
 		9ABACE0925FBE13F00C188DA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABACE0825FBE13F00C188DA /* Color.swift */; };
 		9ABACE4025FBEBF100C188DA /* MDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABACE3F25FBEBF100C188DA /* MDS.swift */; };
-		9AC0A00425F91C280072166B /* MDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC09FFA25F91C280072166B /* MDS.framework */; };
 		9AC0A00B25F91C280072166B /* MDS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC09FFD25F91C280072166B /* MDS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AD7B6B226440E47000A4C7D /* FontProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6B126440E47000A4C7D /* FontProviderProtocol.swift */; };
 		9AD7B6BA26440E96000A4C7D /* DefaultFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6B926440E96000A4C7D /* DefaultFontProvider.swift */; };
@@ -46,16 +44,6 @@
 		9ADBABFE26468AE200C9E1D1 /* InputTextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBABFD26468AE200C9E1D1 /* InputTextFieldStyles.swift */; };
 		9ADBAC052646946200C9E1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADBAC042646946200C9E1D1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9AC0A00525F91C280072166B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9AC09FF125F91C280072166B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9AC09FF925F91C280072166B;
-			remoteInfo = MDS;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C419C082643204D001F35F5 /* ElevationPoolProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationPoolProtocol.swift; sourceTree = "<group>"; };
@@ -82,7 +70,6 @@
 		9AC09FFA25F91C280072166B /* MDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC09FFD25F91C280072166B /* MDS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDS.h; sourceTree = "<group>"; };
 		9AC09FFE25F91C280072166B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AC0A00325F91C280072166B /* MDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD7B6B126440E47000A4C7D /* FontProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProviderProtocol.swift; sourceTree = "<group>"; };
 		9AD7B6B926440E96000A4C7D /* DefaultFontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFontProvider.swift; sourceTree = "<group>"; };
 		9AD7B6BE264412C7000A4C7D /* MDSLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSLabelStyle.swift; sourceTree = "<group>"; };
@@ -110,15 +97,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A67F06A265955EC00D84266 /* Pods_MDS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AC0A00025F91C280072166B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AC0A00425F91C280072166B /* MDS.framework in Frameworks */,
-				020A6AFBB8F94C9E00801845 /* Pods_MDS_MDSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +228,6 @@
 			isa = PBXGroup;
 			children = (
 				9AC09FFA25F91C280072166B /* MDS.framework */,
-				9AC0A00325F91C280072166B /* MDSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,26 +354,6 @@
 			productReference = 9AC09FFA25F91C280072166B /* MDS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9AC0A00225F91C280072166B /* MDSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9AC0A01125F91C280072166B /* Build configuration list for PBXNativeTarget "MDSTests" */;
-			buildPhases = (
-				D83FE9EF5BA0AAEA5D6C3649 /* [CP] Check Pods Manifest.lock */,
-				9AC09FFF25F91C280072166B /* Sources */,
-				9AC0A00025F91C280072166B /* Frameworks */,
-				9AC0A00125F91C280072166B /* Resources */,
-				15B79761CCB27C8580B367DA /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9AC0A00625F91C280072166B /* PBXTargetDependency */,
-			);
-			name = MDSTests;
-			productName = MDSTests;
-			productReference = 9AC0A00325F91C280072166B /* MDSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -409,9 +366,6 @@
 					9AC09FF925F91C280072166B = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
-					};
-					9AC0A00225F91C280072166B = {
-						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
@@ -429,7 +383,6 @@
 			projectRoot = "";
 			targets = (
 				9AC09FF925F91C280072166B /* MDS */,
-				9AC0A00225F91C280072166B /* MDSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -446,33 +399,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AC0A00125F91C280072166B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15B79761CCB27C8580B367DA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MDS-MDSTests/Pods-MDS-MDSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MDS-MDSTests/Pods-MDS-MDSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDS-MDSTests/Pods-MDS-MDSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BA165A203E1639736FBA74B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,28 +418,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MDS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D83FE9EF5BA0AAEA5D6C3649 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MDS-MDSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -557,22 +464,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AC09FFF25F91C280072166B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9AC0A00625F91C280072166B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9AC09FF925F91C280072166B /* MDS */;
-			targetProxy = 9AC0A00525F91C280072166B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9AC0A00C25F91C280072166B /* Debug */ = {
@@ -752,46 +644,6 @@
 			};
 			name = Release;
 		};
-		9AC0A01225F91C280072166B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21E338257BB0BF8830639331 /* Pods-MDS-MDSTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ZA6X5DAKT;
-				INFOPLIST_FILE = MDSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MDSExample.com.MDSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9AC0A01325F91C280072166B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60A279D51A0CBE0E7BEA277E /* Pods-MDS-MDSTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ZA6X5DAKT;
-				INFOPLIST_FILE = MDSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MDSExample.com.MDSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -809,15 +661,6 @@
 			buildConfigurations = (
 				9AC0A00F25F91C280072166B /* Debug */,
 				9AC0A01025F91C280072166B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9AC0A01125F91C280072166B /* Build configuration list for PBXNativeTarget "MDSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9AC0A01225F91C280072166B /* Debug */,
-				9AC0A01325F91C280072166B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
