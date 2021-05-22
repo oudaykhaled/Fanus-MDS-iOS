@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MDS"
-  spec.version      = "1.0.24"
+  spec.version      = "1.0.25"
   spec.swift_version = "5"
   spec.summary      = "This a MDS framework for iOS"
   spec.description  = "MDS framework is used to get all the styles and components from it"
@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/oudaykhaled/Fanus-MDS-iOS.git", :tag => "#{spec.version}" }
   spec.dependency 'Resolver'
-  spec.source_files = "MDS/**/*"
+  spec.source_files = "MDS/**/*.{swift}"
+  spec.resources = "MDS/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 end
