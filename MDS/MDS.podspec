@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MDS"
-  spec.version      = "1.0.1"
-  spec.summary      = "This a MDS framework for iOS
+  spec.version      = "1.0.2"
+  spec.summary      = "This a MDS framework for iOS"
   spec.description  = "MDS framework is used to get all the styles and components from it"
   spec.homepage     = "https://github.com/oudaykhaled/Fanus-MDS-iOS"
   spec.license      = "MIT"
