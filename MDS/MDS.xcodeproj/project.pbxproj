@@ -12,7 +12,6 @@
 		1C419C0D2643205D001F35F5 /* DefaultElevationPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C419C0C2643205D001F35F5 /* DefaultElevationPool.swift */; };
 		1CB622572632F78700F3757D /* RadiusPoolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB622562632F78700F3757D /* RadiusPoolProtocol.swift */; };
 		1CB6225B2632F7E100F3757D /* DefaultRadiusPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6225A2632F7E100F3757D /* DefaultRadiusPool.swift */; };
-		5C3F58C84E615163A06F0DE3 /* Pods_MDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0042575B1C800A6F3356 /* Pods_MDS.framework */; };
 		9A25E3BE25F942A500041971 /* ColorPaletteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3BD25F942A500041971 /* ColorPaletteProtocol.swift */; };
 		9A25E3C325F9437300041971 /* SpacerPoolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3C225F9437300041971 /* SpacerPoolProtocol.swift */; };
 		9A25E3C925F943C300041971 /* SizerPoolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25E3C825F943C300041971 /* SizerPoolProtocol.swift */; };
@@ -23,12 +22,12 @@
 		9A60AC542646C72A00B9884D /* InputPasswordTextfield.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A60AC532646C72A00B9884D /* InputPasswordTextfield.xib */; };
 		9A60AC582646C74100B9884D /* InputPasswordTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60AC572646C74100B9884D /* InputPasswordTextfield.swift */; };
 		9A60AC5F2646D08A00B9884D /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60AC5E2646D08A00B9884D /* Extension+UIImage.swift */; };
+		9A67F06A265955EC00D84266 /* Pods_MDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0042575B1C800A6F3356 /* Pods_MDS.framework */; };
 		9AA96F7125FA896B0098D742 /* DefaultStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA96F7025FA896B0098D742 /* DefaultStyles.swift */; };
 		9ABACE0525FBE10A00C188DA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABACE0425FBE10A00C188DA /* Colors.xcassets */; };
 		9ABACE0925FBE13F00C188DA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABACE0825FBE13F00C188DA /* Color.swift */; };
 		9ABACE4025FBEBF100C188DA /* MDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABACE3F25FBEBF100C188DA /* MDS.swift */; };
 		9AC0A00425F91C280072166B /* MDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC09FFA25F91C280072166B /* MDS.framework */; };
-		9AC0A00925F91C280072166B /* MDSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0A00825F91C280072166B /* MDSTests.swift */; };
 		9AC0A00B25F91C280072166B /* MDS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC09FFD25F91C280072166B /* MDS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AD7B6B226440E47000A4C7D /* FontProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6B126440E47000A4C7D /* FontProviderProtocol.swift */; };
 		9AD7B6BA26440E96000A4C7D /* DefaultFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B6B926440E96000A4C7D /* DefaultFontProvider.swift */; };
@@ -84,8 +83,6 @@
 		9AC09FFD25F91C280072166B /* MDS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDS.h; sourceTree = "<group>"; };
 		9AC09FFE25F91C280072166B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC0A00325F91C280072166B /* MDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC0A00825F91C280072166B /* MDSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSTests.swift; sourceTree = "<group>"; };
-		9AC0A00A25F91C280072166B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD7B6B126440E47000A4C7D /* FontProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProviderProtocol.swift; sourceTree = "<group>"; };
 		9AD7B6B926440E96000A4C7D /* DefaultFontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFontProvider.swift; sourceTree = "<group>"; };
 		9AD7B6BE264412C7000A4C7D /* MDSLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSLabelStyle.swift; sourceTree = "<group>"; };
@@ -112,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3F58C84E615163A06F0DE3 /* Pods_MDS.framework in Frameworks */,
+				9A67F06A265955EC00D84266 /* Pods_MDS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +240,6 @@
 			isa = PBXGroup;
 			children = (
 				9AC09FFC25F91C280072166B /* MDS */,
-				9AC0A00725F91C280072166B /* MDSTests */,
 				9AC09FFB25F91C280072166B /* Products */,
 				094D3145AC73D1CA13ADA3FB /* Pods */,
 				ED645852EDA8FAF2DD5D6873 /* Frameworks */,
@@ -271,15 +267,6 @@
 				9AC09FFE25F91C280072166B /* Info.plist */,
 			);
 			path = MDS;
-			sourceTree = "<group>";
-		};
-		9AC0A00725F91C280072166B /* MDSTests */ = {
-			isa = PBXGroup;
-			children = (
-				9AC0A00825F91C280072166B /* MDSTests.swift */,
-				9AC0A00A25F91C280072166B /* Info.plist */,
-			);
-			path = MDSTests;
 			sourceTree = "<group>";
 		};
 		9AD7B6B026440E18000A4C7D /* Components */ = {
@@ -574,7 +561,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC0A00925F91C280072166B /* MDSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
